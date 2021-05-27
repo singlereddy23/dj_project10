@@ -20,4 +20,5 @@ from myapp import views
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('',views.smaple1,name="sample1"),
+    path('demo2/',views.sample2,name="demo2"),
 ]
